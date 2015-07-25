@@ -1,0 +1,158 @@
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="uietwebportal.simararora.uietwebportal.ResultFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/main_fragment_padding"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/main_fragment_margin"
+                android:layout_marginRight="@dimen/main_fragment_margin"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="70"
+                    android:textSize="@dimen/fragment_primary_text_size"
+                    android:layout_height="wrap_content"
+                    android:text="Roll No." />
+
+                <AutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="30"
+                    android:textSize="@dimen/fragment_primary_text_size"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:inputType="textCapCharacters"
+                    android:id="@+id/etRollNo">
+
+                    <requestFocus />
+
+                </AutoCompleteTextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_marginLeft="@dimen/main_fragment_margin"
+                android:layout_marginRight="@dimen/main_fragment_margin"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="70"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/fragment_primary_text_size"
+                    android:text="Semester" />
+
+                <Spinner
+                    android:layout_weight="30"
+                    android:layout_width="match_parent"
+                    android:textSize="@dimen/fragment_primary_text_size"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinnerSemester" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/main_fragment_margin"
+                android:layout_marginRight="@dimen/main_fragment_margin"
+                android:gravity="center_vertical"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textSize="@dimen/fragment_primary_text_size"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:text="Course" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_weight="30"
+                    android:textSize="@dimen/fragment_primary_text_size"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinnerCourse" />
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgGrading"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grading"
+                    android:id="@+id/rbGrading"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rbNonGrading"
+                    android:text="Non Grading" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgRegular"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Regular"
+                    android:id="@+id/rbRegular"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rbReappear"
+                    android:text="Reappear" />
+
+            </RadioGroup>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Show Result"
+                android:textColor="@android:color/white"
+                android:id="@+id/bShowResult" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

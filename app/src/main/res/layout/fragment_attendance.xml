@@ -1,0 +1,64 @@
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="uietwebportal.simararora.uietwebportal.ResultFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/main_fragment_padding"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/main_fragment_margin"
+                android:layout_marginRight="@dimen/main_fragment_margin"
+                android:gravity="center_vertical"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="70"
+                    android:textSize="@dimen/fragment_primary_text_size"
+                    android:layout_height="wrap_content"
+                    android:text="Roll No." />
+
+                <AutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="30"
+                    android:textSize="@dimen/fragment_primary_text_size"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:inputType="textCapCharacters"
+                    android:id="@+id/etRollNo">
+
+                    <requestFocus />
+
+                </AutoCompleteTextView>
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Show Attendance"
+                android:textColor="@android:color/white"
+                android:id="@+id/bShowAttendance" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

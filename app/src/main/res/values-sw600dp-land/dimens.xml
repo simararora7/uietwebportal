@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width_navigation_drawer">450dp</dimen>
+    <dimen name="navigation_drawer_text_size">18dp</dimen>
+    <dimen name="navigation_drawer_margin">18dp</dimen>
+    <dimen name="main_fragment_padding">14dp</dimen>
+    <dimen name="main_fragment_margin">9dp</dimen>
+    <dimen name="fragment_primary_text_size">18dp</dimen>
+    <dimen name="activity_primary_text_size">16dp</dimen>
+    <dimen name="gap">17dp</dimen>
+    <dimen name="header_text_size">16dp</dimen>
+    <dimen name="list_item_padding">7dp</dimen>
+</resources>

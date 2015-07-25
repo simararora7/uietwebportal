@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="60"
+    android:background="#FFEBEE"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:textSize="@dimen/header_text_size"
+        android:paddingTop="@dimen/list_item_padding"
+        android:paddingBottom="@dimen/list_item_padding"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Code"
+        android:layout_weight="10"
+        android:id="@+id/tvCode" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:textSize="@dimen/header_text_size"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/list_item_padding"
+        android:paddingBottom="@dimen/list_item_padding"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="10"
+        android:text="Class"
+        android:id="@+id/tvClass" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:text="Type"
+        android:gravity="center"
+        android:paddingTop="@dimen/list_item_padding"
+        android:paddingBottom="@dimen/list_item_padding"
+        android:layout_gravity="center"
+        android:textSize="@dimen/header_text_size"
+        android:id="@+id/tvType" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:text="Delivered"
+        android:paddingTop="@dimen/list_item_padding"
+        android:paddingBottom="@dimen/list_item_padding"
+        android:textSize="@dimen/header_text_size"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:id="@+id/tvDelivered" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:text="Attended"
+        android:paddingTop="@dimen/list_item_padding"
+        android:paddingBottom="@dimen/list_item_padding"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:textSize="@dimen/header_text_size"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/tvAttended" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:text="%age"
+        android:paddingTop="@dimen/list_item_padding"
+        android:paddingBottom="@dimen/list_item_padding"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="@dimen/header_text_size"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:id="@+id/tvPercentage" />
+
+</LinearLayout>

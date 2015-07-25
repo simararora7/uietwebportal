@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFEBEE"
+    android:layout_weight="60">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:layout_gravity="center"
+        android:paddingTop="@dimen/list_item_padding"
+        android:paddingBottom="@dimen/list_item_padding"
+        android:text="Code"
+        android:textSize="@dimen/header_text_size"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:gravity="center"
+        android:id="@+id/tvCode" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:text="Subject Name"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:gravity="center"
+        android:paddingTop="@dimen/list_item_padding"
+        android:paddingBottom="@dimen/list_item_padding"
+        android:layout_gravity="center"
+        android:textSize="@dimen/header_text_size"
+        android:id="@+id/tvName" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:layout_gravity="center"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:paddingTop="@dimen/list_item_padding"
+        android:paddingBottom="@dimen/list_item_padding"
+        android:text="Earned Credits (Th)"
+        android:textSize="@dimen/header_text_size"
+        android:gravity="center"
+        android:id="@+id/tvCreditsTh" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/header_text_size"
+        android:text="Grade Points (Th)"
+        android:layout_gravity="center"
+        android:paddingTop="@dimen/list_item_padding"
+        android:paddingBottom="@dimen/list_item_padding"
+        android:layout_weight="10"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:gravity="center"
+        android:id="@+id/tvGpTh" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:text="Earned Credits (Pr)"
+        android:textSize="@dimen/header_text_size"
+        android:paddingTop="@dimen/list_item_padding"
+        android:paddingBottom="@dimen/list_item_padding"
+        android:gravity="center"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:layout_gravity="center"
+        android:id="@+id/tvCreditsPr" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grade Points (Pr)"
+        android:textSize="@dimen/header_text_size"
+        android:paddingTop="@dimen/list_item_padding"
+        android:paddingBottom="@dimen/list_item_padding"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="10"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:id="@+id/tvGpPr" />
+
+</LinearLayout>

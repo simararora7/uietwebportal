@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:layout_marginTop="10dp"
+    android:layout_weight="60">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:layout_gravity="center"
+        android:text="Code"
+        android:textSize="@dimen/header_text_size"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:text="Subject Name"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="@dimen/header_text_size"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:text="Earned\nCredits\n(Th)"
+        android:textSize="@dimen/header_text_size"
+        android:gravity="center"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/header_text_size"
+        android:text="Grade\nPoints\n(Th)"
+        android:layout_gravity="center"
+        android:layout_weight="10"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:text="\nEarned\nCredits\n(Pr)\n"
+        android:textSize="@dimen/header_text_size"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grade\nPoints\n(Pr)"
+        android:textSize="@dimen/header_text_size"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="10"
+        android:textColor="@android:color/white"
+        />
+
+</LinearLayout>

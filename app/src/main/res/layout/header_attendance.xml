@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="60"
+    android:background="@color/colorPrimary"
+    android:layout_marginTop="10dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/header_text_size"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="\nCode\n"
+        android:layout_weight="10"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/header_text_size"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="10"
+        android:text="\nClass\n"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:textColor="@android:color/white"
+        android:text="\nType\n"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="@dimen/header_text_size"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:text="\nDelivered\n"
+        android:textSize="@dimen/header_text_size"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:text="\nAttended\n"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/header_text_size"
+        android:gravity="center"
+        android:layout_gravity="center"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:text="\n%age\n"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="@dimen/header_text_size"
+        android:textColor="@android:color/white"
+         />
+
+</LinearLayout>

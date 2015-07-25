@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/ButtonAppTheme21</item>
+        <item name="android:colorControlHighlight">@color/colorControlHighlight</item>
+
+    </style>
+
+    <style name="ButtonAppTheme21" parent="android:Widget.Material.Button">
+        <item name="android:background">@drawable/material_button</item>
+    </style>
+
+</resources>
